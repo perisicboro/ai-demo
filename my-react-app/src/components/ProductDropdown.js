@@ -30,7 +30,6 @@ const ProductDropdown = () => {
 
   return (
     <div className="product-dropdown">
-      <div className="dropdown-title">Product Selection</div>
       <button 
         className="dropdown-toggle"
         onClick={() => setIsOpen(!isOpen)}

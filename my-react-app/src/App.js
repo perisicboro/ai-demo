@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import UploadButtons from './components/UploadButtons';
 import ProductDropdown from './components/ProductDropdown';
+import ProductPreview from './components/ProductPreview';
 
 function App() {
   return (
@@ -27,9 +28,14 @@ function App() {
         </section>
 
         <section className="step-section">
-          <h2 className="step-title">Step 3: Place Order</h2>
+          <h2 className="step-title">Step 3: Product Preview</h2>
+          <ProductPreview />
+        </section>
+
+        <section className="step-section">
+          <h2 className="step-title">Step 4: Place Order</h2>
           <button className="order-button">
-            Place Order
+            Place an Order
           </button>
         </section>
       </div>
