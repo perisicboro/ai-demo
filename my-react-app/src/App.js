@@ -1,4 +1,6 @@
+import React from 'react';
 import './App.css';
+import UploadButtons from './components/UploadButtons';
 
 function App() {
   return (
@@ -30,6 +32,7 @@ function App() {
         }}>
           <p style={{ color: '#666' }}>Image View Area</p>
         </div>
+        <UploadButtons />
         <button style={{
           backgroundColor: '#2196F3',
           color: 'white',
